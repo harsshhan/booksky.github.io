@@ -25,13 +25,13 @@ addbook.addEventListener('click',function(event){
     var author=document.getElementById('author').value
     var description=document.getElementById('description').value
     
-    if(bookname&author&description){
+    if(bookname!==''&author!==''&description!==''){
             var div=document.createElement(div)
             div.setAttribute('class','book')
             div.innerHTML=`<h1>${bookname}</h1>
             <h5>${author}</h5>
             <p>${description}</p>
-            <button>Delete</button>`
+            <button onclick="deletebook(event)">Delete</button>`
         
             container.append(div)
 
