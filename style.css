@@ -1,0 +1,139 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    .roboto-slab-navbar{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    }
+}
+
+.navbar{
+    background-color: #FD6569;
+    padding: 10px;
+}
+
+.container{
+    padding: 10px;
+}
+.book{
+    width: 20%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    margin: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+.book h1{
+    color: #FD6569;
+}
+.book h1,h5,p,button{
+    padding: 5px;
+}
+.book p{
+    margin-top: 5px;
+}
+.book button{
+    margin-bottom: 5px;
+    margin-left: 220px;
+    border-radius: 10px;
+    background-color: #FD6569;
+    color: black;
+    border: none;
+
+}
+
+.plusbtn{
+    position: fixed;
+    color: black;
+    background-color: #FD6569;
+    font-size: 40px;
+    border: none;
+    border-radius: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    bottom: 30px;
+    right: 30px;
+}
+
+.popupoverlay{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    opacity: 0.8;
+    z-index: 1;
+    display: none;
+}
+
+.popupbox{
+    width: 40%;
+    background-color: #FD6569;
+    border-radius: 10px;
+    padding: 40px;
+    position: absolute;
+    top: 20%;
+    left: 28%;
+    z-index: 2;
+    display: none;
+}
+
+.popupbox input{
+    width: 100%;
+    background-color: transparent;
+    margin: 5px;
+    border: none;
+    border-bottom: 3px solid black;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.popupbox textarea{
+    width: 100%;
+    background-color: transparent;
+    margin: 5px;
+    border: none;
+    border: 2px solid black;
+    padding: 5px;
+    font-size: 20px;
+}
+.popupbox input::placeholder{
+    color: black;
+}
+.popupbox textarea::placeholder{
+    color: black;
+}
+
+.popupbox button{
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    margin-left: 140px;
+
+}
+
+
+.popupbox button{
+    justify-content: space-around;
+}
+
+.popupbox input:focus{
+    outline: none;
+}
+.popupbox textarea:focus{
+    outline: none;
+}
