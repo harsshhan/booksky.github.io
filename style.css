@@ -29,6 +29,7 @@ body{
     margin: 30px;
     display: inline-block;
     vertical-align: top;
+    
 }
 .book h1{
     color: #FD6569;
@@ -40,8 +41,8 @@ body{
     margin-top: 5px;
 }
 .book button{
+
     margin-bottom: 5px;
-    margin-left: 220px;
     border-radius: 10px;
     background-color: #FD6569;
     color: black;
